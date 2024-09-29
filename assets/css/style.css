@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body {
+    /* font-family: 'Ruberoid'; */
+}
+
+:root {
+    --bs-white-color: #FFFFFF;
+    --bs-white-bg: #FFFFFF;
+    --bs-black-heading: #0E0E0E;
+    --bs-green-light: #4BB00B;
+    --bs-gray-shadow-bg: #0000000D;
+    --bs-PastelOrange-bg: #FBB039;
+    --text-black-button: #0B0B0B;
+    --bs-primary-bg: #153462;
+    --bs-primary-light-b: #284D85;
+    --bs-gray-slide-bu-: #9B9B9B;
+    --bs-gray-span: #DFDFDF;
+    --text-para: #3E3E3E;
+    --text-black-head: #161616;
+
+}
+
+.white{
+    color: var(--bs-white-color);
+}
+.white-bg{
+    background-color: var(--bs-white-bg);
+}
+.black-h{
+    color: var(--bs-black-heading);
+}
+.black-text{
+    color: var(--text-black-head);
+}
+.green-light{
+    color: var(--bs-green-light);
+}
+.orange-bg{
+    background-color: var(--bs-PastelOrange-bg);
+}
+
+.black-btn{
+    color: var(--text-black-button);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+/* header section start */
+
+.nav-link {
+    color: var(--text-black-head);
+}
+ .active,.nav-link:hover {
+    color: var(--bs-green-light);
+}
+
+.header-btn{
+    border: 1px solid #FBB039;
+    display: inline-block;
+} 
+
+.header-btn:hover {
+    background-color: var(--bs-white-bg);
+    border: 1px solid black;
+}
+/* header section end */
+/* banner-first section start  */
+
+.banner-first {
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover !important;
+    background-position: center !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .enquiry-btn {
+    font-size: 14px;
+    font-weight: 500 !important;
+    padding: 10px 27px;
+  } 
+
+  .enquiry-btn:hover {
+    background-color:var(--bs-white-bg);
+    color: var(--text-black-button);
+  }
+
+  .services-btn {
+    font-size: 14px;
+    font-weight: 500 !important;
+    padding: 10px 20px;
+  } 
+
+  .services-btn:hover{
+    background-color:var(--bs-PastelOrange-bg);
+    color: var(--text-black-button);
+  }
+
+  /* banner-first section end */
+  /* banner-second section start */
+
+  .banner-second {
+    width: 100%;
+    height: 18vh;
+    /* border: 1px solid red; */
+  }
+
+.solar-benefit1::after, .solar-benefit3::after {
+    background: #000;
+    width: 1px;
+    height: 60%;
+    position: absolute;
+    top: 25px;
+    content: "";
+    right: 0;
+}
+
+@media only screen and (min-width:992px) {
+.solar-benefit2::after {
+    background: #000;
+    width: 1px;
+    height: 60%;
+    position: absolute;
+    top: 25px;
+    content: "";
+    right: 0;
+}
+}
+
+.benefits-col {
+    position: relative;
+    /* border: 1px dotted blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.benefits-col:last-child::after {
+    display: none;
+}
+
+.banner-second-content {
+    background-color: var(--bs-white-bg);
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -18%);
+}
+
+  /* banner-second section end */

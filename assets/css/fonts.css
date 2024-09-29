@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('/assets/fonts/poppins/Poppins-Regular.woff') format('woff2'),
+        url('/assets/fonts/poppins/Poppins-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ruberoid';
+    src: url('/assets/fonts/ruberoid/Ruberoid-Bold.woff') format('woff2'),
+        url('/assets/fonts/ruberoid/Ruberoid-Bold.woff2') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ruberoid';
+    src: url('/assets/fonts/ruberoid/Ruberoid-Regular.woff') format('woff2'),
+        url('/assets/fonts/ruberoid/Ruberoid-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

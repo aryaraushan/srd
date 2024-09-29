@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDR</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/js/bootstrap.min.js">
+    <link rel="stylesheet" href="assets/js/jquery.min.js">
+    <link rel="stylesheet" href="assets/js/swiper.min.js">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <style>
+        @media screen and (min-width:992px) {
+            .nav-item {
+                margin: 0rem 0.5rem;
+            }
+        }
+
+        @media screen and (max-width:991px) {
+          .banner-second {
+              height: 28vh;
+            }
+          .banner-second-content {
+              transform: translate(-50%, -18%);
+            }
+        }
+
+        @media screen and (min-width:768px) {
+            .nav-item {
+                padding-left: 0.5rem;
+            }
+        }
+        @media screen and (max-width:576px) {
+          .head-btn {
+            flex-direction: column;
+          }
+          .services-btn {
+            padding: 10px 23px;
+          }
+          .banner-second {
+            height: 80vh;
+          }
+          .banner-second-content {
+            transform: translate(-50%, 32%);
+          }
+         .benefits-col {
+            width: 100%;
+         }
+         .solar-benefit1::after, .solar-benefit3::after {
+          width: 0px;
+         }
+
+        }
+
+        @media screen and (min-width:320px) {
+          .breakpoint {
+            display: block;
+          }
+        }
+         
+    </style>
+</head>
+<body>
+  <!-- header section start -->
+    <header>
+        <nav class="navbar navbar-expand-lg white-bg">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="assets/images/logo@2x.png" alt="logo" width="85px">
+              </a>
+              <button class="navbar-toggler border" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon black-h"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link header-btn orange-bg rounded" href="#"><span class="p-2 fw-bolder"> &nbsp;<i class="fa-solid fa-phone"></i>&nbsp; +91-8866477774 &nbsp; </span></a>
+                  </li>
+                  
+              </div>
+            </div>
+          </nav>
+    </header>
+
+  <!-- header section end -->
+   <!-- banner-first section start -->
+
+    <section class="banner-first" style="background: url(assets/images/Mask\ Group\ 1.png);">
+        <div class="container">
+            <div class="common-heading text-center">
+                <h1 class="white">A New Powerful Perspective <span class="breakpoint pt-1"> In<span class="green-light"> Solar Energy</span></span></h1>
+                <p class="white pt-3 pb-5">Affordable solar energy solution for your home or office</p>
+
+                <!-- <ul class="d-flex border justify-content-center list-unstyled">
+                  <li class="orange-bg enquiry-btn rounded"><a class="black-text" href="#">Enquiry Now</a> &nbsp;<i class="fa-solid fa-arrow-right-long"></i></li>
+                  <li class="orange-bg enquiry-btn rounded"><a class="black-text" href="#">Enquiry Services</a> &nbsp;<i class="fa-solid fa-arrow-right-long"></i></li>
+                </ul> -->
+                
+                <div class="d-flex justify-content-center head-btn ">
+                    <span class="my-3"><a class="mx-2 fw-bolder orange-bg rounded black-btn enquiry-btn" href="#">Enquiry Now &nbsp; <i class="fa-solid fa-arrow-right-long"></i></a></span>
+                    <span class="my-3"><a class="mx-2 fw-bolder white-bg rounded black-btn services-btn" href="#">More Services &nbsp; <i class="fa-solid fa-arrow-right-long"></i></a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- banner-first section end -->
+   <!-- banner-second section start -->
+
+   <section class="banner-second position-relative">
+    <div class=" container position-absolute banner-second-content">
+      <div class="row border">
+        <div class="col-6 col-sm-6 col-lg-3 text-center solar-benefit1 benefits-col">
+          <div class="soler-benefits-box py-3">
+          <img src="assets/images/Group 1.svg" alt="logo" width="30px">
+          <p class="">Calculate your <span class="breakpoint">Savings</span></p>
+        </div>
+        </div>
+        <div class="col-6 col-sm-6 col-lg-3 text-center solar-benefit2 benefits-col">
+          <img src="assets/images/Group 5.svg" alt="logo" width="50px">
+          <p>Installation: <span class="breakpoint">How it Works?</span></p>
+          
+        </div>
+        <div class="col-6 col-sm-6 col-lg-3 text-center solar-benefit3 benefits-col">
+          <img src="assets/images/Group 7.svg" alt="logo" width="45px">
+          <p>Our Warranty <span class="breakpoint">Policy</span></p>
+        </div>
+        <div class="col-6 col-sm-6 col-lg-3 text-center solar-benefit4 benefits-col">
+          <img src="assets/images/Group 9.svg" alt="logo" width="45px">
+          <p>Additional Power <span class="breakpoint">for your needs</span></p>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <!-- banner-second section end -->
+
+<!-- <br><br><br><br><br><br><br><br> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>
